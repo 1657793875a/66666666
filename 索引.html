@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<meta charset="utf-8">
+		<title>CSS3</title>
+		<link href="class4.css"rel="stylesheet"type="text/css"/ >
+		<!--外-->
+		<style>/*内联式 写在head标签的style标签中*/
+		/*
+			/*css的基本结构
+			
+			选择器{color:red; font-size:30px;}
+			选择器{
+				color:red;
+			font-size:30px;	
+			}
+			*/
+		   /*
+		   基础选择器
+		   通配符选择器
+		   *{}
+		   */
+		  
+		  
+		  *{
+			  color: red;00
+		  }
+		  
+		  p{
+			  color: green;
+		  }
+		  /*标签名选择器
+		  html1标签名{}
+		  
+		 /*类选择器以点开头 
+		 标签加class
+		  一个或者多个
+		  开发最常用
+		  */
+		.title{
+			color:   blue;
+		} 
+		
+		/*id 选择器
+		以#开头
+		标签加id
+		只能有一个
+		常与js配合
+		
+		*//*导入式
+		@import ur（css）路径;
+		@import （css）路径;
+		*/
+	   /*
+	  行内式
+	   #king{
+		   color: gray;
+	   }
+	   */
+	  .font30{
+		  color: aqua;
+	  }
+	  .font40{
+		  color:  #000000;
+	  }
+	  .font50{color:  #0000FF;}
+	  .i{
+		  font-style: inherit;
+	  }
+	  .blod{
+		  font-weight: 900 lighter;
+	  }
+	  		</style>
+	
+	</head>
+	<body>
+		
+		<p style="color: pink;font-size:100px; bold " >6666666</p>
+		<p style="color: ;font-size: ; >6666666</p>
+		<p id="two">6666666</p>
+		<h1 class="title">h1</h1>
+		<h2 id="two">h2</h2>
+		<h3>3</h3>
+	</body>
+</html>
